@@ -1,4 +1,4 @@
-package Assignment2Q2;
+ package Assignment2Q2;
 
 public class Rectangle extends Shape {
 	double Wigth, height, Area, perameter;
@@ -18,7 +18,10 @@ public class Rectangle extends Shape {
 	public void setHeight(double height) {
 		this.height = height;
 	}
-
+       
+        
+        
+        
 	double getArea() {
 		Area = Wigth * height;
 		return Area;
